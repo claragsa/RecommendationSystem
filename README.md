@@ -65,20 +65,3 @@ Nesse gráfico foram observadas as taxas de conversão dos 70 itens mais vendido
 Durante a análise do projeto foi observado que existiam muitos dados dos usuários, logo, seria interessante fazer uma filtragem colaborativa. Dessa forma, a principal tarefa foi Top N recomendações com Alternating Least Squares e como métricas de avaliação foram escolhidas a Precision@K e a NDCG@K. Então, foram feitos testes para chegar na melhor configuração d modelo chegando no resultado Factors=512, Regularization=0.3, Iterations=10.
   
 Esse modelo foi capaz de ter uma Precision@10 de 22.7%, ou seja, quase 3 itens dos 10 recomendados são relevantes. Esse resultado é ótimo considerando que os dados são bastante desbalanceado e tem uma alta esparsidade. Além disso, um NDCG@10 de 0.1673, o que indica que os itens relevantes aparecem mais proximos do topo das indicações, sendo ótimo para UX.
-
-#### Estrutura do projeto
-Recommendation_System/
-├── data/
-│ └── raw/
-├── images/
-├── src/
-│ ├── init.py
-│ ├── analysis.py
-│ ├── cleaning.py
-│ ├── load.py
-│ ├── model.py
-├── main.py
-├── 01_exploratory_analysis.ipynb
-├── recomendacoes_produtos_full_script.py
-├── requirements.txt
-├── README.md
