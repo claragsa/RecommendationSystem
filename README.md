@@ -27,7 +27,7 @@ O projeto foi feito com o objetivo de construir um sistema de recomendação bas
 - código disponível no jupyter notebook ‘01_exploratory_analysis.ipynb’
 Figura 1 - Gráfico de contagem de cada tipo de evento
 
-![Quantidade de cada evento](images/grafico_n_tipo_evento.png)
+![Quantidade de cada evento](images/grafico_n_tipo_evnto.png)
 
 O gráfico da contagem de cada evento mostra que a maioria dos eventos são visualizações dos itens, em seguida, há adições ao carrinho e, por último, as transações. Esses dados são comuns em e-commerce, mas indicam que os dados são desbalanceados, ou seja, para a recomendação terá que ter um peso consideravelmente diferente para cada ação. Além disso, pode indicar que a maioria dos usuários está apenas navegando pelos produtos, com uma taxa de conversão relativamente baixa.
 
